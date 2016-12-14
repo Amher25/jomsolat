@@ -1,0 +1,64 @@
+body{
+  font-family: 'Cabin Sketch', sans-serif;
+  background-image: url("../img/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+img{
+  height: 100px;
+  width: 100px;
+  margin-top: 50px;
+  margin-bottom: -23px;
+}
+h1{
+  font-weight: 600;
+}
+
+.logo-container a{
+  text-decoration: none;
+  color: #000000;
+}
+#timeBoard{
+  height: auto;
+  /*background-color: #b3ffe0;*/
+  background-color: rgba(130, 130, 130, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 10px 20px #a6a6a6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+}
+
+#locationBox{
+  font-weight: bold;
+}
+
+table td{
+    padding: 10px;
+}
+
+#locationDisplay{
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.prayer{
+  font-size: 20px;
+  color: #000000;
+}
+
+.pTime{
+  font-size: 17px;
+  color: #000000;
+}
+
+#creator{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+span{
+  font-size: 15px;
+}
